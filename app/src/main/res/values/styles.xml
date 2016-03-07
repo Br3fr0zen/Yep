@@ -15,4 +15,86 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="usernameField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/userSize_login</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+
+    <style name="passwordField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/userSize_login</item>
+        <item name="android:textIsSelectable">true</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+
+    <style name="btnLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/btnSize_login</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:nestedScrollingEnabled">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="titleLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/dimen_title_splash</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="subtitleLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/title_Log</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/dimen_subtitle_splash</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="forgetLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:textSize">@dimen/forget_pass</item>
+        <item name="android:layout_below">@+id/linearLayout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="splashTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">87dp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:textSize">@dimen/dimen_title_splash</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="splashSubtitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:textSize">@dimen/dimen_subtitle_splash</item>
+        <item name="android:layout_below">@+id/title_splash</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
 </resources>

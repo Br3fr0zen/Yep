@@ -40,5 +40,7 @@ public class Splash extends Activity {
                 Splash.this.finish();
             }
         }, SPLASH_DISPLAY_LENGTH);
+
     }
+
 }
