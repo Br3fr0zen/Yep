@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yep</string>
+    <string name="aMenu">menu_a</string>
+    <string name="bMenu">menu_b</string>
+    <string name="title_splash">YEP!</string>
+    <string name="subtitle_splash">DO I KNOW YOU?</string>
+</resources>
