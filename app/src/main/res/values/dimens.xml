@@ -4,4 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="dimen_title_splash">50sp</dimen>
     <dimen name="dimen_subtitle_splash">40sp</dimen>
+    <dimen name="userSize_login">20sp</dimen>
+    <dimen name="btnSize_login">30sp</dimen>
+    <dimen name="forget_pass">15sp</dimen>
 </resources>
